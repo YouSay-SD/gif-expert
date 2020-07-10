@@ -1,5 +1,5 @@
 import React from 'react';
-import GifExpert from './components/gifExpert';
+import GifExpert from './components/GifExpert';
 
 function App() {
   return (
