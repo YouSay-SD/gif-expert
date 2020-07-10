@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import AddCategory from './addCategory';
 
-function GifExpert() {
+const GifExpert = () => {
+
+  const [categories, setCategories] = useState(['Shinobu Oshino', 'Illya Prisma', 'Ai Hinatsuru']);
+  /*
+  const handleAdd = () => {
+    setCategories( [...categories, 'Rem'] );
+  }
+  */
   return (
-    <h1>adas</h1>
+    <>
+      <h1>Gif Expert</h1>
+      <AddCategory />
+      
+      <hr />
+
+      <ol>
+        { 
+          categories.map( category => {
+            return <li key={ category }> {category} </li>;
+          })
+        }
+      </ol>
+
+    </>
   )
 }
 
