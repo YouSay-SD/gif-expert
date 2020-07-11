@@ -1,9 +1,18 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   padding: 60px;
+  background-color: #282828;
+  color: grey;
+}
+
+h1, h3, hr, form {
+  margin-bottom: 20px;
 }
 
 input {
@@ -14,6 +23,7 @@ input {
   border-radius: 6px;
   border: 1px solid grey;
   outline: none;
+  background-color: #333;
 }
 
 .card-grid {
