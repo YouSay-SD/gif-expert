@@ -10,6 +10,10 @@ input {
   width: 100%;
   font-size: 1.2rem;
   color: grey;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  outline: none;
 }
 
 .card-grid {
